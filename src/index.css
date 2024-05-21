@@ -1,13 +1,37 @@
+/* Dunkles Hintergrunddesign */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #1f1f1f;
+  color: #ffffff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header-Styling */
+header {
+  background-color: #333333;
+}
+
+/* Navigationselemente */
+nav ul li a {
+  color: #ffffff;
+}
+
+/* Abschnittsstyling für zusätzliche Abschnitte */
+section {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Link-Styling */
+a {
+  color: #00aaff;
+}
+
+/* Zusätzliches Styling für den Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333333;
+  color: #ffffff;
 }
