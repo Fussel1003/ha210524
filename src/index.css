@@ -1,15 +1,12 @@
-/* src/index.css */
-
-/* Dunkles Hintergrunddesign mit Hintergrundbild */
+/* Dunkles Hintergrunddesign */
 body {
-  background: url('./assets/Screenshot\ 2024-05-21\ 152643.png') no-repeat center center fixed;
-  background-size: cover;
+  background-color: #1f1f1f;
   color: #ffffff;
 }
 
 /* Header-Styling */
 header {
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: #333333;
 }
 
 /* Navigationselemente */
@@ -19,7 +16,7 @@ nav ul li a {
 
 /* Abschnittsstyling für zusätzliche Abschnitte */
 section {
-  background-color: rgba(41, 41, 41, 0.8);
+  background-color: #292929;
   color: #ffffff;
   padding: 2rem;
   margin: 2rem 0;
@@ -35,6 +32,6 @@ a {
 footer {
   text-align: center;
   padding: 1rem 0;
-  background-color: rgba(51, 51, 51, 0.8);
+  background-color: #333333;
   color: #ffffff;
 }
