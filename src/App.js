@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
       <header>
-        <h1 className="text-large" style={{ color: '#ff8800' }}>Willkommen zu ha210524 von Kevin Böhning</h1>
+        <h1 className="text-large" style={{ color: '#ff8800' }}>Willkommen zu ha210524</h1>
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
@@ -46,28 +46,28 @@ const App = () => {
 
       <section id="home">
         <h2>Home</h2>
-        <p>Dies ist die Startseite unserer schönen React-Anwendung. Beauftragt von Techstarter. (Verantwortlicher Teacher: Suheib)</p>
+        <p>Dies ist die Startseite unserer schönen React-Anwendung.</p>
         <button onClick={changeColorOnClick}>Hintergrundfarbe ändern</button>
       </section>
 
       <section id="about">
         <h2>Über Uns</h2>
-        <p>Wir sind die Klasse 24-01-ON.</p>
+        <p>Erfahren Sie mehr über uns und unser Team von Entwicklern.</p>
       </section>
 
       <section id="services">
         <h2>Dienstleistungen</h2>
-        <p>Entdecken Sie unsere Dienstleistungen in Zukunft, einschließlich Webdesign, Entwicklung und mehr. (Dauert aber noch da wir noch Lernen)</p>
+        <p>Entdecken Sie unsere Dienstleistungen, einschließlich Webdesign, Entwicklung und mehr.</p>
       </section>
 
       <section id="contact">
         <h2>Kontakt</h2>
-        <p>Kontaktieren Sie uns auf www.techstarter.de</p>
+        <p>Kontaktieren Sie uns, um mehr zu erfahren oder um Ihre Anforderungen zu besprechen.</p>
       </section>
 
       <section id="additional-info">
         <h2>Zusätzliche Informationen</h2>
-        <p>Um zusätzliche Informationen zu bekommen wenden Sie sich bitte an das Teaching-Team.</p>
+        <p>Hier finden Sie zusätzliche Informationen und Details zu unserer Anwendung.</p>
       </section>
 
       <footer>
